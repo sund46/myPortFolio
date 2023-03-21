@@ -6,26 +6,26 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 김대현
+title: 백엔드 엔지니어
+email: sund46@naver.com
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  sund46
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: 대현-김-7167a7263
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -33,7 +33,7 @@ youtube_username: globalmtb
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://uncovered-quokka-315.notion.site/41972403e8084dabaaba5efa51c40408
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +46,97 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/myProfile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Java & Spring, Kotlin & Spring, 그리고 NodeJS & JavaScript 기술 스택과 AWS 클라우드를 기반으로 3년차 백엔드 개발자입니다. 지금까지 <b>대학교 LMS(학습관리 시스템)</b>, <b>농약사 ERP 시스템</b>, 그리고 <b>스마트 농업 서비스</b> 등에서 백엔드 플랫폼을 개발해왔습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  제가 개발하는 서비스는 <mark>개발과 비즈니스 간의 원활한 커뮤니케이션</mark>을 가장 중요한 가치로 생각합니다. 문제 해결과 비즈니스 발전을 위해 능동적이고 적극적인 커뮤니케이션을 지향합니다. 이를 바탕으로 더 나은 개발자가 되기 위해 지속적으로 학습하고, 다양한 경험을 쌓으며 노력하고 있습니다.
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      - layout: left #top-middle
+        title: (주)그린랩스
+        link: https://greenlabs.co.kr/
+        sub_title: Kotlin & Spring 백엔드 개발자
+        caption: 2022.03 ~ 현재
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          스마트 농업 서비스
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - 재배자재 진단 및 처방 서비스 개발
+          - 위치기반 시공가 및 농약사 찾기 서비스 개발
+          - 시공견적 및 상담 서비스 고도화
+          - 농약사 ERP의 품목, 고객, 거래내역의 데이터 파이프라인 구축 (SQS & S3 & Lambda)
+          - 스마트 농업 서비스 전자영수증 개발
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+      - layout: left #top-middle
+        title: (주)우성소프트
+        link: https://wssw.kr
+        sub_title: JavaScript & NodeJs 백엔드 개발자
+        caption: 2021.06 ~ 2022.03
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          1000개 이상의 고객사를 보유한 농자재 유통 전문프로그램 ERP
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - 농약사 ERP 기반 POS 서비스 API/Batch 개발 및 고도화
+          - 농약사 ERP 기반 APP 서비스 API 개발
+          - 운영 업무를 위한 관리자 페이지 개발
+
+      - layout: left #top-middle
+        title: (주)디유넷
+        link: http://www.dunet.co.kr/
+        sub_title: 웹 개발자
+        caption: 2019.12 ~ 2021.06
+        quote: >
+          스마트러닝솔루션 LMS
+        description: | # this will include new lines to allow paragraphs
+          - LENS3, BLU, BLU2, BLU3 각 버전 별 시스템유지보수 및 업데이트
+          - 약 20개의 대학교별 요구사항에 따른 시스템고도화
+          - 비대면 강의를 위한 원격강의시스템 도입
+          - 시스템 운영 및 기능적 편의를 위한 어드민 기능 개발
+
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout: top-middle
+        quote: 현재 업무에 사용중 혹은 사용했던 기술들입니다.
+
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          - Java, Kotlin, JavaScript
+          - Spring MVC, Spring Boot, NodeJs, ExpressJs
+          - JPA, Querydsl, Hibernate, Mybatis, Sequelize
+          - Junit4/5, Mockito, Jest
+          - Gradle, Maven, Npm
+          - Eclipse, IntelliJ, Visual Studio Code
+
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+          - MySQL, MariaDB, Oracle, MsSql, Tibero, DB2
+          - AWS SQS, RDS (Aurora), S3, EC2, Lambda
+          - Nginx, Pm2, Tomcat
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - layout: top-middle
+        title: 자바(JAVA) 프레임워크 개발자 양성 과정
+        sub_title: Java, Spring, JSP, Oracle 등
+        caption: 2019.1 - 2019.8
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: top-middle
+        title: 인덕대학교 컴퓨터전자공학과
+        caption: 2014.3 - 2019.2
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
