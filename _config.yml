@@ -82,7 +82,7 @@ content:
           Kotlin, Spring Boot, JPA, QueryDSL
           <br><br>
 
-          <h4><b>시공사,농약사 찾기 및 견적,상담 서비스 개발</b></h4>
+          <h4><b>시공사, 농약사 찾기 및 견적, 상담 서비스 개발</b></h4>
           <hr>
           <h2><b>Description.</b></h2>
           농민이 직접 위치기반 시공사, 농약사를 찾고 컨택하여 상담 및 견적을 요청할 수 있는 신규 서비스 개발을 했습니다.
@@ -90,7 +90,7 @@ content:
           - 서비스 개발을 위한 DB 설계
           - 카카오 API를 이용하여 주소 데이터 구축 batch 개발
           - 위치기반 "시공사 찾기" 서비스의 API 개발
-          - NhnCloud의 알림톡을 이용한 견적,상담 결과 카카오톡 전송 기능 개발
+          - NhnCloud의 알림톡을 이용한 견적,상담 결과 카카오톡 전송 기능 ß개발
           <h2><b>Tech Stack.</b></h2>
           Kotlin, Spring Boot, JPA, QueryDSL
           <br><br>
